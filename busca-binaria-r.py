@@ -2,6 +2,8 @@ import random
 
 # n é o tamanho da sequencia
 n = 9
+#q é a quantidade de chaves a serem buscadas/quantidade de buscas a serem realizadas
+q=n
 
 #Busca binária com recursividade
 def busca_binaria_recursiva(vetor, inicio, fim, chave):
@@ -29,12 +31,6 @@ for i in range(n):
 
 #ordanação do vetor
 vetor.sort()
-
-print(vetor)
-
-#declando a quantidade de buscas a serem realizadas
-q = input("Digite quantas chaves vc quer buscar ")
-q = int(q)
 
 #declarando o vetor de chaves a serem buscadas no vetor inicial
 vetor_de_chaves = []
